@@ -1,0 +1,168 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{2B7232A1-7C71-447E-B5FE-1E29ABF138F3}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\packages_D10_1_Berlin\RtmRxDB240.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\packages_D10_1_Berlin\DclRxDB240.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\packages_D10_1_Berlin\RtmRxCtl240.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\packages_D10_1_Berlin\DclRxCtl240.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RtmRxCtl250.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\packages_D10_1_Berlin\RtmRxBde240.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DclRxBde250.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RtmRxBde250.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DclRxCtl250.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RtmRxDB250.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DclRxDB250.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\..\..\SVendas.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RtmRxDB240">
+        <MSBuild Projects="..\packages_D10_1_Berlin\RtmRxDB240.dproj"/>
+    </Target>
+    <Target Name="RtmRxDB240:Clean">
+        <MSBuild Projects="..\packages_D10_1_Berlin\RtmRxDB240.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RtmRxDB240:Make">
+        <MSBuild Projects="..\packages_D10_1_Berlin\RtmRxDB240.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DclRxDB240">
+        <MSBuild Projects="..\packages_D10_1_Berlin\DclRxDB240.dproj"/>
+    </Target>
+    <Target Name="DclRxDB240:Clean">
+        <MSBuild Projects="..\packages_D10_1_Berlin\DclRxDB240.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DclRxDB240:Make">
+        <MSBuild Projects="..\packages_D10_1_Berlin\DclRxDB240.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RtmRxCtl240">
+        <MSBuild Projects="..\packages_D10_1_Berlin\RtmRxCtl240.dproj"/>
+    </Target>
+    <Target Name="RtmRxCtl240:Clean">
+        <MSBuild Projects="..\packages_D10_1_Berlin\RtmRxCtl240.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RtmRxCtl240:Make">
+        <MSBuild Projects="..\packages_D10_1_Berlin\RtmRxCtl240.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DclRxCtl240">
+        <MSBuild Projects="..\packages_D10_1_Berlin\DclRxCtl240.dproj"/>
+    </Target>
+    <Target Name="DclRxCtl240:Clean">
+        <MSBuild Projects="..\packages_D10_1_Berlin\DclRxCtl240.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DclRxCtl240:Make">
+        <MSBuild Projects="..\packages_D10_1_Berlin\DclRxCtl240.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RtmRxCtl250">
+        <MSBuild Projects="RtmRxCtl250.dproj"/>
+    </Target>
+    <Target Name="RtmRxCtl250:Clean">
+        <MSBuild Projects="RtmRxCtl250.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RtmRxCtl250:Make">
+        <MSBuild Projects="RtmRxCtl250.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RtmRxBde240">
+        <MSBuild Projects="..\packages_D10_1_Berlin\RtmRxBde240.dproj"/>
+    </Target>
+    <Target Name="RtmRxBde240:Clean">
+        <MSBuild Projects="..\packages_D10_1_Berlin\RtmRxBde240.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RtmRxBde240:Make">
+        <MSBuild Projects="..\packages_D10_1_Berlin\RtmRxBde240.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DclRxBde250">
+        <MSBuild Projects="DclRxBde250.dproj"/>
+    </Target>
+    <Target Name="DclRxBde250:Clean">
+        <MSBuild Projects="DclRxBde250.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DclRxBde250:Make">
+        <MSBuild Projects="DclRxBde250.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RtmRxBde250">
+        <MSBuild Projects="RtmRxBde250.dproj"/>
+    </Target>
+    <Target Name="RtmRxBde250:Clean">
+        <MSBuild Projects="RtmRxBde250.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RtmRxBde250:Make">
+        <MSBuild Projects="RtmRxBde250.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DclRxCtl250">
+        <MSBuild Projects="DclRxCtl250.dproj"/>
+    </Target>
+    <Target Name="DclRxCtl250:Clean">
+        <MSBuild Projects="DclRxCtl250.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DclRxCtl250:Make">
+        <MSBuild Projects="DclRxCtl250.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RtmRxDB250">
+        <MSBuild Projects="RtmRxDB250.dproj"/>
+    </Target>
+    <Target Name="RtmRxDB250:Clean">
+        <MSBuild Projects="RtmRxDB250.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RtmRxDB250:Make">
+        <MSBuild Projects="RtmRxDB250.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DclRxDB250">
+        <MSBuild Projects="DclRxDB250.dproj"/>
+    </Target>
+    <Target Name="DclRxDB250:Clean">
+        <MSBuild Projects="DclRxDB250.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DclRxDB250:Make">
+        <MSBuild Projects="DclRxDB250.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SVendas">
+        <MSBuild Projects="..\..\..\..\..\SVendas.dproj"/>
+    </Target>
+    <Target Name="SVendas:Clean">
+        <MSBuild Projects="..\..\..\..\..\SVendas.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SVendas:Make">
+        <MSBuild Projects="..\..\..\..\..\SVendas.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RtmRxDB240;DclRxDB240;RtmRxCtl240;DclRxCtl240;RtmRxCtl250;RtmRxBde240;DclRxBde250;RtmRxBde250;DclRxCtl250;RtmRxDB250;DclRxDB250;SVendas"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RtmRxDB240:Clean;DclRxDB240:Clean;RtmRxCtl240:Clean;DclRxCtl240:Clean;RtmRxCtl250:Clean;RtmRxBde240:Clean;DclRxBde250:Clean;RtmRxBde250:Clean;DclRxCtl250:Clean;RtmRxDB250:Clean;DclRxDB250:Clean;SVendas:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RtmRxDB240:Make;DclRxDB240:Make;RtmRxCtl240:Make;DclRxCtl240:Make;RtmRxCtl250:Make;RtmRxBde240:Make;DclRxBde250:Make;RtmRxBde250:Make;DclRxCtl250:Make;RtmRxDB250:Make;DclRxDB250:Make;SVendas:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

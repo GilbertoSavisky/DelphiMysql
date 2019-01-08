@@ -1,0 +1,19 @@
+unit unt_funcoes;
+
+interface
+
+// declara as funçoes e variaveis
+function testarPermissao(NOME_FORM: String): Boolean;
+
+implementation
+uses Dialogs;
+// onde implementa as funções
+function testarPermissao(NOME_FORM: String): Boolean;
+begin
+    result := False;
+    if Result = false then
+    ShowMessage('Acesso não permitido');
+
+end;
+
+end.

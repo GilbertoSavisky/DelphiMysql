@@ -1,0 +1,16 @@
+unit unt_funcoes;
+
+interface
+
+// declara as funçoes e variaveis
+function testarPermissao(NOME_FORM: String): Boolean;
+
+implementation
+
+// onde implementa as funções
+function testarPermissao(NOME_FORM: String): Boolean;
+begin
+    result := true;
+end;
+
+end.

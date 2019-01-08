@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/07/19 19:23:21.000.263,=C:\Users\gilbe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/19 19:24:10.000.651,C:\Users\gilbe\Developer\Programação\DelphiMysql\Fontes\U_inicial.dfm=C:\Users\gilbe\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/07/19 19:24:10.000.651,C:\Users\gilbe\Developer\Programação\DelphiMysql\Fontes\U_inicial.pas=C:\Users\gilbe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/19 19:24:30.000.960,C:\Users\gilbe\Developer\Programação\DelphiMysql\SVendas.dproj=C:\Users\gilbe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/07/19 21:19:29.000.683,=C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.pas</Transaction>
+    <Transaction>2018/07/19 21:23:34.000.642,C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.pas=C:\Users\gilbe\Developer\Programação\DelphiMysql\Fontes\U_clientes.pas</Transaction>
+    <Transaction>2018/07/19 21:23:34.000.642,C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.dfm=C:\Users\gilbe\Developer\Programação\DelphiMysql\Fontes\U_clientes.dfm</Transaction>
+    <Transaction>2018/07/19 21:44:24.000.063,=C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.pas</Transaction>
+    <Transaction>2018/07/19 21:44:59.000.065,C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.pas=C:\Users\gilbe\Developer\Programação\DelphiMysql\Fontes\unt_funcoes.pas</Transaction>
+    <Transaction>2018/07/19 22:19:51.000.003,=C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.pas</Transaction>
+    <Transaction>2018/07/19 22:21:06.000.840,=C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.pas</Transaction>
+    <Transaction>2018/07/19 22:22:59.000.086,C:\Users\gilbe\Developer\Programação\DelphiMysql\Fontes\U_produtos.pas=C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.pas</Transaction>
+    <Transaction>2018/07/19 22:22:59.000.086,C:\Users\gilbe\Developer\Programação\DelphiMysql\Fontes\U_produtos.dfm=C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.dfm</Transaction>
+    <Transaction>2018/07/23 11:14:17.000.584,=C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.pas</Transaction>
+    <Transaction>2018/07/23 11:14:48.000.207,C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.dfm=C:\Users\gilbe\Developer\Programação\DelphiMysql\Fontes\U_DM.dfm</Transaction>
+    <Transaction>2018/07/23 11:14:48.000.207,C:\Users\gilbe\Developer\Programação\DelphiMysql\Unit1.pas=C:\Users\gilbe\Developer\Programação\DelphiMysql\Fontes\U_DM.pas</Transaction>
+  </Transactions>
+</BorlandProject>

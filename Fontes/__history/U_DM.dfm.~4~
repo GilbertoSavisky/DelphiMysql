@@ -1,0 +1,80 @@
+object dm: Tdm
+  OldCreateOrder = False
+  Height = 596
+  Width = 596
+  object conexao: TFDConnection
+    Params.Strings = (
+      'Database=SVendas'
+      'User_Name=root'
+      'Port=3307'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 72
+    Top = 64
+  end
+  object mySql_link: TFDPhysMySQLDriverLink
+    DriverID = 'MySQL'
+    Left = 192
+    Top = 72
+  end
+  object wait_cursor: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 288
+    Top = 64
+  end
+  object SQL_produtos: TFDQuery
+    Active = True
+    Connection = conexao
+    SQL.Strings = (
+      'select * from produtos')
+    Left = 56
+    Top = 200
+    object SQL_produtospro_id: TFDAutoIncField
+      FieldName = 'pro_id'
+      Origin = 'pro_id'
+      ProviderFlags = [pfInWhere, pfInKey]
+    end
+    object SQL_produtospro_nome: TStringField
+      FieldName = 'pro_nome'
+      Origin = 'pro_nome'
+      Required = True
+      Size = 100
+    end
+    object SQL_produtospro_barras: TStringField
+      FieldName = 'pro_barras'
+      Origin = 'pro_barras'
+      Required = True
+    end
+    object SQL_produtospro_ref: TStringField
+      FieldName = 'pro_ref'
+      Origin = 'pro_ref'
+      Required = True
+    end
+    object SQL_produtospro__custo: TFloatField
+      AutoGenerateValue = arDefault
+      FieldName = 'pro__custo'
+      Origin = 'pro__custo'
+    end
+    object SQL_produtospro_preco_prazo: TFloatField
+      AutoGenerateValue = arDefault
+      FieldName = 'pro_preco_prazo'
+      Origin = 'pro_preco_prazo'
+    end
+    object SQL_produtospro_preco: TFloatField
+      AutoGenerateValue = arDefault
+      FieldName = 'pro_preco'
+      Origin = 'pro_preco'
+    end
+    object SQL_produtospro_estoque: TIntegerField
+      FieldName = 'pro_estoque'
+      Origin = 'pro_estoque'
+      Required = True
+    end
+  end
+  object ds_produtos: TDataSource
+    DataSet = SQL_produtos
+    Left = 160
+    Top = 208
+  end
+end
